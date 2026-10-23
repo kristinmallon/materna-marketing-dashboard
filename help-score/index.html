@@ -182,7 +182,7 @@ const BOOK = 'https://app.acuityscheduling.com/schedule/42278e03/appointment/847
 
 /* ---------- State ---------- */
 /* Where submissions go. The page itself is hosted on maternahealthcare.com; this is the Apps Script backend's /exec URL. Replace after every new deployment from a different account. */
-const EXEC_URL = 'https://script.google.com/macros/s/AKfycbxARE5iay7uw662OuleqxCVkTMfy4Gkfl3tjUt3Qrrj9r33kbB65UVSlouonuqx_nVAGA/exec';
+const EXEC_URL = 'https://script.google.com/macros/s/AKfycbzU_5D2dimh1AWvKoegSgWJsUiw2v42a3GZWjnAbWcIx6_qkNB2QdCkLq6nWyTIyxtuQA/exec';
 const S = { step:0, answers:{}, first:'', last:'', dob:'', edc:'', email:'', phone:'', wNow:'', wLast:'', contact:'' };
 const STEPS = ['intro','about','contact','weight', ...QUESTIONS.map(q=>'q:'+q.key), 'pref','result'];
 const $ = sel => document.querySelector(sel);
